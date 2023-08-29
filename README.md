@@ -1,5 +1,5 @@
 # Awesome Disaggregated Memory
-A list of awesome papers about disaggregated memory.
+A list of awesome researchers and papers about disaggregated memory.
 
 - [Awesome Disaggregated Memory](#awesome-disaggregated-memory)
 - [Researchers](#researchers)
