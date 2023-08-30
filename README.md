@@ -12,6 +12,7 @@ A list of awesome researchers and papers about disaggregated memory.
   - [Databases](#databases)
   - [Hardware](#hardware)
   - [Applications](#applications)
+- [Industrial Practices](#industrial-practices)
 
 # Researchers
 - [Harry Xu](http://web.cs.ucla.edu/~harryxu/)
@@ -126,3 +127,9 @@ A list of awesome researchers and papers about disaggregated memory.
 | ATC 2022      | [JITServer: Disaggregated Caching JIT Compiler for JVM in the Cloud](https://www.usenix.org/conference/atc22/presentation/khrabrov)                                                                     | [link](https://github.com/AlexeyKhrabrov/jitserver-benchmarks) |
 | POMACS 2023   | [Memtrade: Marketplace for Disaggregated Memory Clouds](https://dl.acm.org/doi/abs/10.1145/3589985?af=R)                                                                                                | [link](https://github.com/SymbioticLab/Memtrade)               |
 | VLDB 2023     | [FlexChain: An Elastic Disaggregated Blockchain](https://www.vldb.org/pvldb/vol16/p23-wu.pdf)                                                                                                           |                                                                |
+
+# Industrial Practices
+- [The Machine](https://www.hpl.hp.com/research/systems-research/themachine/)
+- [Disaggregated Memory - In Pursuit of Scale and Efficiency](https://pmem.io/blog/2022/01/disaggregated-memory-in-pursuit-of-scale-and-efficiency/)
+- [Compute Express Link: The Breakthrough CPU-to-Device Interconnect](https://www.computeexpresslink.org/)
+- [Microsoft Azure Blazes the Disaggregated Memory Trail with ZNUMA](https://www.nextplatform.com/2022/07/11/microsoft-azure-blazes-the-disaggregated-memory-trail-with-znuma/)
