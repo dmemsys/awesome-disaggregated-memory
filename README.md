@@ -15,6 +15,8 @@ A list of awesome researchers and papers about disaggregated memory.
 
 # Researchers
 - [Harry Xu](http://web.cs.ucla.edu/~harryxu/)
+- [Kimberly Keeton](https://scholar.google.com/citations?hl=en&user=wR_tv-kAAAAJ&view_op=list_works&sortby=pubdate)
+- [Marcos Aguilera](http://mkaguilera.kawazoe.org/)
 - [Mosharaf Chowdhury](https://www.mosharaf.com/)
 - [Anurag Khandelwal](https://www.anuragkhandelwal.com/)
 - [Yiying Zhang](https://cseweb.ucsd.edu/~yiying/)
@@ -26,18 +28,20 @@ A list of awesome researchers and papers about disaggregated memory.
 
 # Papers
 ## Survey/Vision Papers
-| Conference | Paper                                                                                                                                  | Code |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| WORD 2019  | [Exploring the Disaggregated Memory Interface Design Space](http://word19.ece.cornell.edu/word19-paper8-camera.pdf)                    |      |
-| ICDCS 2019 | [Memmory Disaggregation: Research Problems and Opportunities](https://ieeexplore.ieee.org/iel7/8867821/8884790/08885074.pdf)           |      |
-| APSys 2022 | [Towards a Fully Disaggregated and Programmable Data Center](https://dl.acm.org/doi/abs/10.1145/3546591.3547527)                       |      |
-| HotOS 2023 | [Skadi: Building a Distributed Runtime for Data Systems in Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3593856.3595897) |      |
+| Conference      | Paper                                                                                                                                  | Code |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| WORD 2019       | [Exploring the Disaggregated Memory Interface Design Space](http://word19.ece.cornell.edu/word19-paper8-camera.pdf)                    |      |
+| ICDCS 2019      | [Memmory Disaggregation: Research Problems and Opportunities](https://ieeexplore.ieee.org/iel7/8867821/8884790/08885074.pdf)           |      |
+| APSys 2022      | [Towards a Fully Disaggregated and Programmable Data Center](https://dl.acm.org/doi/abs/10.1145/3546591.3547527)                       |      |
+| HotOS 2023      | [Skadi: Building a Distributed Runtime for Data Systems in Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3593856.3595897) |      |
+| SIGOPS OSR 2023 | [Memory disaggregation: why now and what are the challenges](https://dl.acm.org/doi/abs/10.1145/3606557.3606563)                       |      |
 
 ## OS
 | Conference   | Paper                                                                                                                                                              | Code                                               |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
 | HPCA 2012    | [System-Level Implications of Disaggregated Memory](http://ieeexplore.ieee.org/document/6168955/)                                                                  |                                                    |
 | NSDI 2017    | [Efficient Memory Disaggregation with INFINISWAP](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/gu)                                     | [link](https://github.com/SymbioticLab/Infiniswap) |
+| ATC 2018     | [Remote regions: a simple abstraction for remote memory](https://www.usenix.org/system/files/conference/atc18/atc18-aguilera.pdf)                                  |                                                    |
 | EuroSys 2018 | [Welcome to Zombieland: Practical and Energy-Efficient Memory Disaggregation in a Datacenter](https://dl.acm.org/doi/10.1145/3190508.3190537)                      |                                                    |
 | OSDI 2018    | [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](https://www.usenix.org/conference/osdi18/presentation/shan)                          | [link](https://github.com/WukLab/LegoOS)           |
 | EuroSys 2019 | [Can Far Memory Improve Job Throughput?](https://dl.acm.org/doi/abs/10.1145/3342195.3387522)                                                                       |                                                    |
@@ -66,6 +70,7 @@ A list of awesome researchers and papers about disaggregated memory.
 ## Data structures
 | Conference  | Paper                                                                                                                                                        | Code                                          |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
+| HotOS 2019  | [Designing far memory data structures: Think outside the box](https://dl.acm.org/doi/10.1145/3317550.3321433)                                                |                                               |
 | ATC 2021    | [One-Sided RDMA-Conscious Extendible Hashing for Disaggregated Memory](https://www.usenix.org/conference/atc21/presentation/zuo)                             |                                               |
 | SIGMOD 2022 | [Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory](https://github.com/thustorage/Sherman)                                         | [link](https://github.com/thustorage/Sherman) |
 | OSDI 2023   | [SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory](https://www.usenix.org/conference/osdi23/presentation/luo)                          | [link](https://github.com/dmemsys/SMART)      |
@@ -74,12 +79,16 @@ A list of awesome researchers and papers about disaggregated memory.
 ## Storage Systems
 | Conference      | Paper                                                                                                                                                                                | Code                                       |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| SYSTOR 2019     | [Storm: a fast transactional dataplane for remote data structures](https://dl.acm.org/doi/10.1145/3319647.3325827)                                                                   |                                            |
 | ATC 2020        | [Disaggregating Persistent Memory and Controlling Them Remotely: An Exploration of Passive Disaggregated Key-Value Store](https://www.usenix.org/conference/atc20/presentation/tsai) | [link](https://github.com/WukLab/pDPM)     |
 | FAST 2022       | [FORD: Fast One-Sided RDMA-based Distributed Transactions for Disaggregated Persistent Memory](https://www.usenix.org/conference/fast22/presentation/zhang-ming)                     | [link](https://github.com/minghust/ford)   |
 | HotStorage 2022 | [Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion (CXL-SSD)](https://dl.acm.org/doi/abs/10.1145/3538643.3539745)                                |                                            |
 | VLDB 2022       | [Redy: Remote Dynamic Memory Cache](https://dl.acm.org/doi/10.14778/3503585.3503587)                                                                                                 |                                            |
+| TACO 2023       | [Fast One-Sided RDMA-Based State Machine Replication for Disaggregated Memory](https://dl.acm.org/doi/full/10.1145/3587096)                                                          |                                            |
 | VLDB 2023       | [DINOMO: An Elastic, Scalable, High-Performance Key-Value Store for Disaggregated Persistent Memory](https://arxiv.org/pdf/2209.08743)                                               | [link](https://github.com/utsaslab/dinomo) |
+| ASPLOS 2023     | [Ubft: Microsecond-scale bft using disaggregated memory](https://dl.acm.org/doi/10.1145/3575693.3575732)                                                                             |
 | FAST 2023       | [FUSEE: A Fully Memory-Disaggregated Key-Value Store](https://www.usenix.org/conference/fast23/presentation/shen)                                                                    | [link](https://github.com/dmemsys/FUSEE)   |
+| FAST 2023       | [Patronus: High-Performance and Protective Remote Memory](https://www.usenix.org/conference/fast23/presentation/yan)                                                                 |                                            |
 | SOSP 2023       | [Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System]()                                                                                                               | [link](https://github.com/dmemsys/Ditto)   |
 
 ## Databases
@@ -97,6 +106,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | OSDI 2016       | [Network Requirements for Resource Disaggregation](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/gao)                             |                                        |
 | ASAP 2018       | [REMAP: Remote Memory Manager for Disaggregated Platforms](https://ieeexplore.ieee.org/iel7/8424123/8445082/08445095.pdf)                                    |                                        |
 | NSDI 2019       | [Shoal: A Network Architecture for Disaggregated Racks](https://www.usenix.org/conference/nsdi19/presentation/shrivastav)                                    |                                        |
+| FAST 2021       | [Concordia: Distributed Shared Memory with In-Network Cache Coherence](https://www.usenix.org/conference/fast21/presentation/wang)                           |                                        |
 | ATC 2021        | [Characterizing and Optimizing Remote Persistent Memory with RDMA and NVM](https://www.usenix.org/conference/atc21/presentation/wei)                         |                                        |
 | ASPLOS 2021     | [Rethinking Software Runtimes for Disaggregated Memory](https://dl.acm.org/doi/10.1145/3445814.3446713)                                                      |                                        |
 | SOSP 2021       | [MIND: In-Network Memory Management for Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3477132.3483561)                                          |                                        |
