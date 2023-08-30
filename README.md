@@ -128,6 +128,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | ATC 2022      | [JITServer: Disaggregated Caching JIT Compiler for JVM in the Cloud](https://www.usenix.org/conference/atc22/presentation/khrabrov)                                                                     | [link](https://github.com/AlexeyKhrabrov/jitserver-benchmarks) |
 | POMACS 2023   | [Memtrade: Marketplace for Disaggregated Memory Clouds](https://dl.acm.org/doi/abs/10.1145/3589985?af=R)                                                                                                | [link](https://github.com/SymbioticLab/Memtrade)               |
 | VLDB 2023     | [FlexChain: An Elastic Disaggregated Blockchain](https://www.vldb.org/pvldb/vol16/p23-wu.pdf)                                                                                                           |                                                                |
+| ATC 2023      | [CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation for Billion-Scale Approximate Nearest Neighbor Search](https://www.usenix.org/conference/atc23/presentation/jang)      |                                                                |
+| ATC 2023      | [Overcoming the Memory Wall with CXL-Enabled SSDs](https://www.usenix.org/conference/atc23/presentation/yang-shao-peng)                                                                                 |                                                                |
 
 # Industrial Practices
 - [The Machine](https://www.hpl.hp.com/research/systems-research/themachine/)
