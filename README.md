@@ -18,6 +18,7 @@ A list of awesome researchers and papers about disaggregated memory.
 - [Harry Xu](http://web.cs.ucla.edu/~harryxu/)
 - [Kimberly Keeton](https://scholar.google.com/citations?hl=en&user=wR_tv-kAAAAJ&view_op=list_works&sortby=pubdate)
 - [Marcos Aguilera](http://mkaguilera.kawazoe.org/)
+- [Asaf Cidon](https://www.asafcidon.com/)
 - [Mosharaf Chowdhury](https://www.mosharaf.com/)
 - [Anurag Khandelwal](https://www.anuragkhandelwal.com/)
 - [Yiying Zhang](https://cseweb.ucsd.edu/~yiying/)
