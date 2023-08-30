@@ -50,6 +50,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | EuroSys 2023 | [DiLOS: Do Not Trade Compatibility for Performance Memory Disaggregation](https://dl.acm.org/doi/abs/10.1145/3552326.3567488)                                      |                                                    |
 | NSDI 2023    | [Canvas: Isolated and Adaptive Swapping for Multi-Applications on Remote Memory](https://www.usenix.org/conference/nsdi23/presentation/wang-chenxi)                | [link](https://github.com/uclasystem/canvas)       |
 | NSDI 2023    | [Hermit: Low-Latency, High-Throughput, and Transparent Remote Memory via Feedback-Directed Asynchrony](https://www.usenix.org/conference/nsdi23/presentation/qiao) | [link](https://github.com/uclasystem/hermit)       |
+| SOSP 2023    | [Mira: A Program-Behavior-Guided Far Memory System]()                                                                                                              |                                                    |
+| HotOS 2023   | [Prefetching Using Principles of Hippocampal-Neocortical Interaction](https://www.anuragkhandelwal.com/papers/cls.pdf)                                             |                                                    |
 
 ## Software/Language Runtime
 | Conference   | Paper                                                                                                                                              | Code                                           |
@@ -89,18 +91,19 @@ A list of awesome researchers and papers about disaggregated memory.
 | CIDR 2022   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf) |      |
 
 ## Hardware
-| Conference  | Paper                                                                                                                                | Code                                   |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
-| ISCA 2009   | [Disaggregated Memory for Expansion and Sharing in Blade Servers](https://dl.acm.org/doi/10.1145/1555754.1555789)                    |                                        |
-| OSDI 2016   | [Network Requirements for Resource Disaggregation](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/gao)     |                                        |
-| ASAP 2018   | [REMAP: Remote Memory Manager for Disaggregated Platforms](https://ieeexplore.ieee.org/iel7/8424123/8445082/08445095.pdf)            |                                        |
-| NSDI 2019   | [Shoal: A Network Architecture for Disaggregated Racks](https://www.usenix.org/conference/nsdi19/presentation/shrivastav)            |                                        |
-| ATC 2021    | [Characterizing and Optimizing Remote Persistent Memory with RDMA and NVM](https://www.usenix.org/conference/atc21/presentation/wei) |                                        |
-| ASPLOS 2021 | [Rethinking Software Runtimes for Disaggregated Memory](https://dl.acm.org/doi/10.1145/3445814.3446713)                              |                                        |
-| SOSP 2021   | [MIND: In-Network Memory Management for Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3477132.3483561)                  |                                        |
-| ATC 2022    | [Direct Access, High-Performance Memory Disaggregation with DirectCXL](https://www.usenix.org/conference/atc22/presentation/gouk)    |                                        |
-| ASPLOS 2022 | [Clio: A Hardware-Software Co-Designed Disaggregated Memory System](https://dl.acm.org/doi/10.1145/3503222.3507762)                  | [link](https://github.com/WukLab/Clio) |
-| ASPLOS 2023 | [Pond: CXL-Based Memory Pooling Systems for Cloud Platforms](https://dl.acm.org/doi/10.1145/3575693.3578835)                         | [link](https://github.com/vtess/Pond)  |
+| Conference      | Paper                                                                                                                                                        | Code                                   |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| ISCA 2009       | [Disaggregated Memory for Expansion and Sharing in Blade Servers](https://dl.acm.org/doi/10.1145/1555754.1555789)                                            |                                        |
+| OSDI 2016       | [Network Requirements for Resource Disaggregation](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/gao)                             |                                        |
+| ASAP 2018       | [REMAP: Remote Memory Manager for Disaggregated Platforms](https://ieeexplore.ieee.org/iel7/8424123/8445082/08445095.pdf)                                    |                                        |
+| NSDI 2019       | [Shoal: A Network Architecture for Disaggregated Racks](https://www.usenix.org/conference/nsdi19/presentation/shrivastav)                                    |                                        |
+| ATC 2021        | [Characterizing and Optimizing Remote Persistent Memory with RDMA and NVM](https://www.usenix.org/conference/atc21/presentation/wei)                         |                                        |
+| ASPLOS 2021     | [Rethinking Software Runtimes for Disaggregated Memory](https://dl.acm.org/doi/10.1145/3445814.3446713)                                                      |                                        |
+| SOSP 2021       | [MIND: In-Network Memory Management for Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3477132.3483561)                                          |                                        |
+| ATC 2022        | [Direct Access, High-Performance Memory Disaggregation with DirectCXL](https://www.usenix.org/conference/atc22/presentation/gouk)                            |                                        |
+| ASPLOS 2022     | [Clio: A Hardware-Software Co-Designed Disaggregated Memory System](https://dl.acm.org/doi/10.1145/3503222.3507762)                                          | [link](https://github.com/WukLab/Clio) |
+| ASPLOS 2023     | [Pond: CXL-Based Memory Pooling Systems for Cloud Platforms](https://dl.acm.org/doi/10.1145/3575693.3578835)                                                 | [link](https://github.com/vtess/Pond)  |
+| SIGOPS OSR 2023 | [Make It Real: An End-to-End Implementation of A Physically Disaggregated Data Center](https://cseweb.ucsd.edu/~yiying/SIGOPS-OSR-Yiying-Disaggregation.pdf) |                                        |
 
 
 ## Applications
