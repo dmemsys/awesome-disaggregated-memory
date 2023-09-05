@@ -58,6 +58,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | NSDI    | [Hermit: Low-Latency, High-Throughput, and Transparent Remote Memory via Feedback-Directed Asynchrony](https://www.usenix.org/conference/nsdi23/presentation/qiao) | [link](https://github.com/uclasystem/hermit)       |
 | 2023 | SOSP    | [Mira: A Program-Behavior-Guided Far Memory System]()                                                                                                              |                                                    |
 | 2023 | HotOS   | [Prefetching Using Principles of Hippocampal-Neocortical Interaction](https://www.anuragkhandelwal.com/papers/cls.pdf)                                             |                                                    |
+| 2023 | HPCA    | [HoPP: Hardware-Software Co-Designed Page Prefetching for Disaggregated Memory](https://ieeexplore.ieee.org/document/10070986)                                     |                                                    |
+| 2023 | DATE    | [MARB: Bridge the Semantic Gap between Operating System and Application Memory Access Behavior](https://ieeexplore.ieee.org/abstract/document/10137018)            |                                                    |
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                              | Code                                           |
@@ -82,7 +84,8 @@ A list of awesome researchers and papers about disaggregated memory.
 ## Storage Systems
 | Year | Conf.      | Paper                                                                                                                                                                                | Code                                       |
 | ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| 2019 | SYSTOR     | [Storm: a fast transactional dataplane for remote data structures](https://dl.acm.org/doi/10.1145/3319647.3325827)                                                                   |                                            |
+| 2017 | SoCC       | [Distributed Shared Persistent Memory](http://lastweek.io/pubs/SoCC17-Hotpot.pdf)                                                                                                    | [code](https://github.com/WukLab/Hotpot)   |
+| 2019 | SYSTOR     | [Storm: A Fast Transactional Dataplane for Remote Data Structures](https://dl.acm.org/doi/10.1145/3319647.3325827)                                                                   |                                            |
 | 2020 | ATC        | [Disaggregating Persistent Memory and Controlling Them Remotely: An Exploration of Passive Disaggregated Key-Value Store](https://www.usenix.org/conference/atc20/presentation/tsai) | [link](https://github.com/WukLab/pDPM)     |
 | 2022 | FAST       | [FORD: Fast One-Sided RDMA-based Distributed Transactions for Disaggregated Persistent Memory](https://www.usenix.org/conference/fast22/presentation/zhang-ming)                     | [link](https://github.com/minghust/ford)   |
 | 2022 | HotStorage | [Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion (CXL-SSD)](https://dl.acm.org/doi/abs/10.1145/3538643.3539745)                                |                                            |
