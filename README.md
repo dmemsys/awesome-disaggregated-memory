@@ -36,7 +36,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2019 | ICDCS      | [Memmory Disaggregation: Research Problems and Opportunities](https://ieeexplore.ieee.org/iel7/8867821/8884790/08885074.pdf)           |      |
 | 2022 | APSys      | [Towards a Fully Disaggregated and Programmable Data Center](https://dl.acm.org/doi/abs/10.1145/3546591.3547527)                       |      |
 | 2023 | HotOS      | [Skadi: Building a Distributed Runtime for Data Systems in Disaggregated Data Centers](https://dl.acm.org/doi/10.1145/3593856.3595897) |      |
-| 2023 | SIGOPS OSR | [Memory disaggregation: why now and what are the challenges](https://dl.acm.org/doi/abs/10.1145/3606557.3606563)                       |      |
+| 2023 | SIGOPS OSR | [Memory Disaggregation: Why Now and What are the Challenges](https://dl.acm.org/doi/abs/10.1145/3606557.3606563)                       |      |
 
 ## OS
 | Year | Conf.   | Paper                                                                                                                                                              | Code                                               |
@@ -103,7 +103,9 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2020 | VLDB   | [Understanding the Effect of Data Center Resource Disaggregation on Production DBMSs](https://dl.acm.org/doi/10.14778/3397230.3397249) |      |
 | 2020 | CIDR   | [Rethinking Data Management Systems for Disaggregated Data Centers](https://www.cis.upenn.edu/~sga001/papers/ddc-cidr20.pdf)           |      |
 | 2021 | SIGMOD | [PolarDB Serverless: A Cloud Native Database for Disaggregate Data Centers](https://dl.acm.org/doi/10.1145/3448016.3457560)            |      |
+| 2021 | VLDB   | [TowardsCost-Effectiveand elasticCloudDatabaseDeploymentviaMemoryDisaggregation](http://www.vldb.org/pvldb/vol14/p1900-zhang.pdf)      |      |
 | 2022 | CIDR   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf) |      |
+| 2023 | ASPLOS | [PersistentMemoryDisaggregationforCloud-NativeRelationalDatabases](https://dl.acm.org/doi/10.1145/3582016.3582055)                     |      |
 
 ## Hardware
 | Year | Conf.      | Paper                                                                                                                                                        | Code                                   |
