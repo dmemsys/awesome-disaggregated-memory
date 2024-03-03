@@ -61,6 +61,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | HotOS   | [Prefetching Using Principles of Hippocampal-Neocortical Interaction](https://www.anuragkhandelwal.com/papers/cls.pdf)                                             |                                                    |
 | 2023 | HPCA    | [HoPP: Hardware-Software Co-Designed Page Prefetching for Disaggregated Memory](https://ieeexplore.ieee.org/document/10070986)                                     |                                                    |
 | 2023 | DATE    | [MARB: Bridge the Semantic Gap between Operating System and Application Memory Access Behavior](https://ieeexplore.ieee.org/abstract/document/10137018)            |                                                    |
+| 2024 | FAST    | [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe)                                                    | [link](https://github.com/thustorage/TeRM)         |
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                              | Code                                           |
@@ -107,7 +108,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2021 | SIGMOD | [PolarDB Serverless: A Cloud Native Database for Disaggregate Data Centers](https://dl.acm.org/doi/10.1145/3448016.3457560)            |      |
 | 2021 | VLDB   | [TowardsCost-Effectiveand elasticCloudDatabaseDeploymentviaMemoryDisaggregation](http://www.vldb.org/pvldb/vol14/p1900-zhang.pdf)      |      |
 | 2022 | CIDR   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf) |      |
-| 2023 | ASPLOS | [PersistentMemoryDisaggregationforCloud-NativeRelationalDatabases](https://dl.acm.org/doi/10.1145/3582016.3582055)                     |      |
+| 2023 | ASPLOS | [Persistent Memory Disaggregation for Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3582016.3582055)               |      |
 
 ## Hardware
 | Year | Conf.  | Paper                                                                                                                                | Code                                   |
