@@ -73,6 +73,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2022 | PLDI    | [Mako: a low-pause, high-throughput evacuating collector for memory-disaggregated datacenters](https://dl.acm.org/doi/abs/10.1145/3519939.3523441) | [link](https://github.com/uclasystem/Mako)     |
 | 2023 | SIGCOMM | [Cowbird: Freeing CPUs to Compute by Offloading the Disaggregation of Memory]()                                                                    |                                                |
 | 2024 | ASPLOS  | [Scaling Up Memory Disaggregated Applications with Smart]()                                                                                        | [link](https://github.com/madsys-dev/smart)    |
+| 2024 | NSDI    | [Harvesting Idle Memory for Application-Managed Soft State with Midas](https://web.cs.ucla.edu/~harryxu/papers/midas-nsdi24.pdf)                   | [link](https://github.com/uclasystem/midas)    |
 
 ## Data structures
 | Year | Conf.  | Paper                                                                                                                                                        | Code                                          |
