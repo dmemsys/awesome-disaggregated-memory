@@ -62,18 +62,23 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | HPCA    | [HoPP: Hardware-Software Co-Designed Page Prefetching for Disaggregated Memory](https://ieeexplore.ieee.org/document/10070986)                                     |                                                    |
 | 2023 | DATE    | [MARB: Bridge the Semantic Gap between Operating System and Application Memory Access Behavior](https://ieeexplore.ieee.org/abstract/document/10137018)            |                                                    |
 | 2024 | FAST    | [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe)                                                    | [link](https://github.com/thustorage/TeRM)         |
+| 2024 | OSDI    | [Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/conference/osdi24/presentation/xiang)                                |                                                    |
+| 2024 | OSDI    | [Managing Memory Tiers with CXL in Virtualized Environments](https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong)                                   |                                                    |
 
 ## Software/Language Runtime
-| Year | Conf.   | Paper                                                                                                                                              | Code                                           |
-| ---- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| 2020 | OSDI    | [AIFM: High-Performance, Application-Integrated Far Memory](https://www.usenix.org/conference/osdi20/presentation/ruan)                            | [link](https://github.com/AIFM-sys/AIFM)       |
-| 2020 | OSDI    | [Semeru: A Memory-Disaggregated Managed Runtime](https://www.usenix.org/conference/osdi20/presentation/wang)                                       | [link](https://github.com/uclasystem/Semeru)   |
-| 2022 | OSDI    | [MemLiner: Lining up Tracing and Application for a Far-Memory-Friendly Runtime](https://www.usenix.org/conference/osdi22/presentation/wang)        | [link](https://github.com/uclasystem/MemLiner) |
-| 2022 | OSDI    | [Carbink: Fault-Tolerant Far Memory](https://www.usenix.org/conference/osdi22/presentation/zhou-yang)                                              |                                                |
-| 2022 | PLDI    | [Mako: a low-pause, high-throughput evacuating collector for memory-disaggregated datacenters](https://dl.acm.org/doi/abs/10.1145/3519939.3523441) | [link](https://github.com/uclasystem/Mako)     |
-| 2023 | SIGCOMM | [Cowbird: Freeing CPUs to Compute by Offloading the Disaggregation of Memory]()                                                                    |                                                |
-| 2024 | ASPLOS  | [Scaling Up Memory Disaggregated Applications with Smart]()                                                                                        | [link](https://github.com/madsys-dev/smart)    |
-| 2024 | NSDI    | [Harvesting Idle Memory for Application-Managed Soft State with Midas](https://web.cs.ucla.edu/~harryxu/papers/midas-nsdi24.pdf)                   | [link](https://github.com/uclasystem/midas)    |
+| Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
+| ---- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 2020 | OSDI    | [AIFM: High-Performance, Application-Integrated Far Memory](https://www.usenix.org/conference/osdi20/presentation/ruan)                                                            | [link](https://github.com/AIFM-sys/AIFM)           |
+| 2020 | OSDI    | [Semeru: A Memory-Disaggregated Managed Runtime](https://www.usenix.org/conference/osdi20/presentation/wang)                                                                       | [link](https://github.com/uclasystem/Semeru)       |
+| 2022 | OSDI    | [MemLiner: Lining up Tracing and Application for a Far-Memory-Friendly Runtime](https://www.usenix.org/conference/osdi22/presentation/wang)                                        | [link](https://github.com/uclasystem/MemLiner)     |
+| 2022 | OSDI    | [Carbink: Fault-Tolerant Far Memory](https://www.usenix.org/conference/osdi22/presentation/zhou-yang)                                                                              |                                                    |
+| 2022 | PLDI    | [Mako: a low-pause, high-throughput evacuating collector for memory-disaggregated datacenters](https://dl.acm.org/doi/abs/10.1145/3519939.3523441)                                 | [link](https://github.com/uclasystem/Mako)         |
+| 2023 | SIGCOMM | [Cowbird: Freeing CPUs to Compute by Offloading the Disaggregation of Memory]()                                                                                                    |                                                    |
+| 2024 | ASPLOS  | [Scaling Up Memory Disaggregated Applications with Smart]()                                                                                                                        | [link](https://github.com/madsys-dev/smart)        |
+| 2024 | NSDI    | [Harvesting Idle Memory for Application-Managed Soft State with Midas](https://web.cs.ucla.edu/~harryxu/papers/midas-nsdi24.pdf)                                                   | [link](https://github.com/uclasystem/midas)        |
+| 2024 | ASPLOS  | [TrackFM: Far-out Compiler Support for a Far Memory World](https://dl.acm.org/doi/pdf/10.1145/3617232.3624856)                                                                     | [link](https://github.com/compiler-disagg/TrackFM) |
+| 2024 | OSDI    | [A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications](https://www.usenix.org/conference/osdi24/presentation/chen-lei)                            |                                                    |
+| 2024 | OSDI    | [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/conference/osdi24/presentation/ma-haoran) |                                                    |
 
 ## Data structures
 | Year | Conf.  | Paper                                                                                                                                                        | Code                                          |
@@ -100,6 +105,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | FAST       | [FUSEE: A Fully Memory-Disaggregated Key-Value Store](https://www.usenix.org/conference/fast23/presentation/shen)                                                                    | [link](https://github.com/dmemsys/FUSEE)   |
 | 2023 | FAST       | [Patronus: High-Performance and Protective Remote Memory](https://www.usenix.org/conference/fast23/presentation/yan)                                                                 |                                            |
 | 2023 | SOSP       | [Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System]()                                                                                                               | [link](https://github.com/dmemsys/Ditto)   |
+| 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            |                                            |
 
 ## Databases
 | Year | Conf.  | Paper                                                                                                                                  | Code |
@@ -139,6 +145,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | VLDB     | [FlexChain: An Elastic Disaggregated Blockchain](https://www.vldb.org/pvldb/vol16/p23-wu.pdf)                                                                                                           |                                                                |
 | 2023 | ATC      | [CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation for Billion-Scale Approximate Nearest Neighbor Search](https://www.usenix.org/conference/atc23/presentation/jang)      |                                                                |
 | 2023 | ATC      | [Overcoming the Memory Wall with CXL-Enabled SSDs](https://www.usenix.org/conference/atc23/presentation/yang-shao-peng)                                                                                 |                                                                |
+| 2024 | ASPLOS   | [FaaSMem: Improving Memory Efficiency of Serverless Computing with Memory Pool Architecture](https://dl.acm.org/doi/pdf/10.1145/3620666.3651355)                                                        | [link](https://github.com/BarrinXu/FaaSMem)                    |
 
 # Industrial Practices
 - [The Machine](https://www.hpl.hp.com/research/systems-research/themachine/)
