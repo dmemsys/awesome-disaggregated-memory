@@ -13,6 +13,7 @@ A list of awesome researchers and papers about disaggregated memory.
   - [Hardware](#hardware)
   - [Applications](#applications)
 - [Industrial Practices](#industrial-practices)
+- [Contribute](#contribute)
 
 # Researchers
 - [Harry Xu](http://web.cs.ucla.edu/~harryxu/)
@@ -64,6 +65,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | FAST    | [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe)                                                    | [link](https://github.com/thustorage/TeRM)         |
 | 2024 | OSDI    | [Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/conference/osdi24/presentation/xiang)                                |                                                    |
 | 2024 | OSDI    | [Managing Memory Tiers with CXL in Virtualized Environments](https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong)                                   |                                                    |
+| 2024 | ATC     | [UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy](https://www.usenix.org/conference/atc24/presentation/zhong)              | [link](https://github.com/yijieZ/UniMem)           |
+| 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   | [link](https://github.com/PASAUCMerced/FlexMem)    |
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
@@ -91,21 +94,22 @@ A list of awesome researchers and papers about disaggregated memory.
 
 
 ## Storage Systems
-| Year | Conf.      | Paper                                                                                                                                                                                | Code                                       |
-| ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| 2017 | SoCC       | [Distributed Shared Persistent Memory](http://lastweek.io/pubs/SoCC17-Hotpot.pdf)                                                                                                    | [code](https://github.com/WukLab/Hotpot)   |
-| 2019 | SYSTOR     | [Storm: A Fast Transactional Dataplane for Remote Data Structures](https://dl.acm.org/doi/10.1145/3319647.3325827)                                                                   |                                            |
-| 2020 | ATC        | [Disaggregating Persistent Memory and Controlling Them Remotely: An Exploration of Passive Disaggregated Key-Value Store](https://www.usenix.org/conference/atc20/presentation/tsai) | [link](https://github.com/WukLab/pDPM)     |
-| 2022 | FAST       | [FORD: Fast One-Sided RDMA-based Distributed Transactions for Disaggregated Persistent Memory](https://www.usenix.org/conference/fast22/presentation/zhang-ming)                     | [link](https://github.com/minghust/ford)   |
-| 2022 | HotStorage | [Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion (CXL-SSD)](https://dl.acm.org/doi/abs/10.1145/3538643.3539745)                                |                                            |
-| 2022 | VLDB       | [Redy: Remote Dynamic Memory Cache](https://dl.acm.org/doi/10.14778/3503585.3503587)                                                                                                 |                                            |
-| 2023 | TACO       | [Fast One-Sided RDMA-Based State Machine Replication for Disaggregated Memory](https://dl.acm.org/doi/full/10.1145/3587096)                                                          |                                            |
-| 2023 | VLDB       | [DINOMO: An Elastic, Scalable, High-Performance Key-Value Store for Disaggregated Persistent Memory](https://arxiv.org/pdf/2209.08743)                                               | [link](https://github.com/utsaslab/dinomo) |
+| Year | Conf.      | Paper                                                                                                                                                                                | Code                                           |
+| ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| 2017 | SoCC       | [Distributed Shared Persistent Memory](http://lastweek.io/pubs/SoCC17-Hotpot.pdf)                                                                                                    | [code](https://github.com/WukLab/Hotpot)       |
+| 2019 | SYSTOR     | [Storm: A Fast Transactional Dataplane for Remote Data Structures](https://dl.acm.org/doi/10.1145/3319647.3325827)                                                                   |                                                |
+| 2020 | ATC        | [Disaggregating Persistent Memory and Controlling Them Remotely: An Exploration of Passive Disaggregated Key-Value Store](https://www.usenix.org/conference/atc20/presentation/tsai) | [link](https://github.com/WukLab/pDPM)         |
+| 2022 | FAST       | [FORD: Fast One-Sided RDMA-based Distributed Transactions for Disaggregated Persistent Memory](https://www.usenix.org/conference/fast22/presentation/zhang-ming)                     | [link](https://github.com/minghust/ford)       |
+| 2022 | HotStorage | [Hello Bytes, Bye Blocks: PCIe Storage Meets Compute Express Link for Memory Expansion (CXL-SSD)](https://dl.acm.org/doi/abs/10.1145/3538643.3539745)                                |                                                |
+| 2022 | VLDB       | [Redy: Remote Dynamic Memory Cache](https://dl.acm.org/doi/10.14778/3503585.3503587)                                                                                                 |                                                |
+| 2023 | TACO       | [Fast One-Sided RDMA-Based State Machine Replication for Disaggregated Memory](https://dl.acm.org/doi/full/10.1145/3587096)                                                          |                                                |
+| 2023 | VLDB       | [DINOMO: An Elastic, Scalable, High-Performance Key-Value Store for Disaggregated Persistent Memory](https://arxiv.org/pdf/2209.08743)                                               | [link](https://github.com/utsaslab/dinomo)     |
 | 2023 | ASPLOS     | [Ubft: Microsecond-scale bft using disaggregated memory](https://dl.acm.org/doi/10.1145/3575693.3575732)                                                                             |
-| 2023 | FAST       | [FUSEE: A Fully Memory-Disaggregated Key-Value Store](https://www.usenix.org/conference/fast23/presentation/shen)                                                                    | [link](https://github.com/dmemsys/FUSEE)   |
-| 2023 | FAST       | [Patronus: High-Performance and Protective Remote Memory](https://www.usenix.org/conference/fast23/presentation/yan)                                                                 |                                            |
-| 2023 | SOSP       | [Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System]()                                                                                                               | [link](https://github.com/dmemsys/Ditto)   |
-| 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            |                                            |
+| 2023 | FAST       | [FUSEE: A Fully Memory-Disaggregated Key-Value Store](https://www.usenix.org/conference/fast23/presentation/shen)                                                                    | [link](https://github.com/dmemsys/FUSEE)       |
+| 2023 | FAST       | [Patronus: High-Performance and Protective Remote Memory](https://www.usenix.org/conference/fast23/presentation/yan)                                                                 |                                                |
+| 2023 | SOSP       | [Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System]()                                                                                                               | [link](https://github.com/dmemsys/Ditto)       |
+| 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            |                                                |
+| 2024 | ATC        | [Ethane: An Asymmetric File System for Disaggregated Persistent Memory](https://www.usenix.org/conference/atc24/presentation/cai)                                                    | [link](https://github.com/miaogecm/Ethane.git) |
 
 ## Databases
 | Year | Conf.  | Paper                                                                                                                                  | Code |
@@ -146,9 +150,15 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | ATC      | [CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation for Billion-Scale Approximate Nearest Neighbor Search](https://www.usenix.org/conference/atc23/presentation/jang)      |                                                                |
 | 2023 | ATC      | [Overcoming the Memory Wall with CXL-Enabled SSDs](https://www.usenix.org/conference/atc23/presentation/yang-shao-peng)                                                                                 |                                                                |
 | 2024 | ASPLOS   | [FaaSMem: Improving Memory Efficiency of Serverless Computing with Memory Pool Architecture](https://dl.acm.org/doi/pdf/10.1145/3620666.3651355)                                                        | [link](https://github.com/BarrinXu/FaaSMem)                    |
+| 2024 | ATC      | [HydraRPC: RPC in the CXL Era](https://www.usenix.org/conference/atc24/presentation/ma)                                                                                                                 |                                                                |
 
 # Industrial Practices
 - [The Machine](https://www.hpl.hp.com/research/systems-research/themachine/)
 - [Disaggregated Memory - In Pursuit of Scale and Efficiency](https://pmem.io/blog/2022/01/disaggregated-memory-in-pursuit-of-scale-and-efficiency/)
 - [Compute Express Link: The Breakthrough CPU-to-Device Interconnect](https://www.computeexpresslink.org/)
 - [Microsoft Azure Blazes the Disaggregated Memory Trail with ZNUMA](https://www.nextplatform.com/2022/07/11/microsoft-azure-blazes-the-disaggregated-memory-trail-with-znuma/)
+
+
+---
+# Contribute
+This is an active repository and your contributions are always welcome! Do not hesitate to create pull requests.
