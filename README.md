@@ -91,6 +91,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2022 | SIGMOD | [Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory](https://github.com/thustorage/Sherman)                                         | [link](https://github.com/thustorage/Sherman) |
 | 2023 | OSDI   | [SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory](https://www.usenix.org/conference/osdi23/presentation/luo)                          | [link](https://github.com/dmemsys/SMART)      |
 | 2023 | FAST   | [ROLEX: A Scalable RDMA-Oriented Learned Key-Value Store for Disaggregated Memory Systems](https://www.usenix.org/conference/fast23/presentation/li-pengfei) | [link](https://github.com/iotlpf/ROLEX)       |
+| 2024 | SOSP   | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                       | [link](https://github.com/dmemsys/CHIME)      |
 
 
 ## Storage Systems
@@ -111,7 +112,6 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            |                                                |
 | 2024 | ATC        | [Ethane: An Asymmetric File System for Disaggregated Persistent Memory](https://www.usenix.org/conference/atc24/presentation/cai)                                                    | [link](https://github.com/miaogecm/Ethane.git) |
 | 2024 | SOSP       | [Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores]()                                                                                              | [link](https://github.com/dmemsys/Aceso)       |
-| 2024 | SOSP       | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                                               | [link](https://github.com/dmemsys/CHIME)       |
 | 2024 | SOSP       | [SWARM: Replicating Shared Disaggregated-Memory in No Time]()                                                                                                                        |                                                |
 
 ## Databases
