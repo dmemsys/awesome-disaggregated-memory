@@ -66,7 +66,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | OSDI    | [Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/conference/osdi24/presentation/xiang)                                |                                                    |
 | 2024 | OSDI    | [Managing Memory Tiers with CXL in Virtualized Environments](https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong)                                   |                                                    |
 | 2024 | ATC     | [UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy](https://www.usenix.org/conference/atc24/presentation/zhong)              | [link](https://github.com/yijieZ/UniMem)           |
-| 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   | [link](https://github.com/PASAUCMerced/FlexMem)    |
+| 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     
+                               |
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
@@ -88,9 +89,10 @@ A list of awesome researchers and papers about disaggregated memory.
 | ---- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
 | 2019 | HotOS  | [Designing far memory data structures: Think outside the box](https://dl.acm.org/doi/10.1145/3317550.3321433)                                                |                                               |
 | 2021 | ATC    | [One-Sided RDMA-Conscious Extendible Hashing for Disaggregated Memory](https://www.usenix.org/conference/atc21/presentation/zuo)                             |                                               |
-| 2022 | SIGMOD | [Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory](https://github.com/thustorage/Sherman)                                         | [link](https://github.com/thustorage/Sherman) |
+| 2022 | SIGMOD | [Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory](https://dl.acm.org/doi/abs/10.1145/3514221.3517824)                            | [link](https://github.com/thustorage/Sherman) |
 | 2023 | OSDI   | [SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory](https://www.usenix.org/conference/osdi23/presentation/luo)                          | [link](https://github.com/dmemsys/SMART)      |
 | 2023 | FAST   | [ROLEX: A Scalable RDMA-Oriented Learned Key-Value Store for Disaggregated Memory Systems](https://www.usenix.org/conference/fast23/presentation/li-pengfei) | [link](https://github.com/iotlpf/ROLEX)       |
+| 2024 | SOSP   | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                       | [link](https://github.com/dmemsys/CHIME)      |
 
 
 ## Storage Systems
@@ -108,18 +110,20 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | FAST       | [FUSEE: A Fully Memory-Disaggregated Key-Value Store](https://www.usenix.org/conference/fast23/presentation/shen)                                                                    | [link](https://github.com/dmemsys/FUSEE)       |
 | 2023 | FAST       | [Patronus: High-Performance and Protective Remote Memory](https://www.usenix.org/conference/fast23/presentation/yan)                                                                 |                                                |
 | 2023 | SOSP       | [Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System](https://dl.acm.org/doi/10.1145/3600006.3613144)                                                                 | [link](https://github.com/dmemsys/Ditto)       |
-| 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            |                                                |
+| 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            | [link](https://github.com/minghust/motor)     |
 | 2024 | ATC        | [Ethane: An Asymmetric File System for Disaggregated Persistent Memory](https://www.usenix.org/conference/atc24/presentation/cai)                                                    | [link](https://github.com/miaogecm/Ethane.git) |
+| 2024 | SOSP       | [Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores]()                                                                                              | [link](https://github.com/dmemsys/Aceso)       |
+| 2024 | SOSP       | [SWARM: Replicating Shared Disaggregated-Memory in No Time]()                                                                                                                        |                                                |
 
 ## Databases
-| Year | Conf.  | Paper                                                                                                                                  | Code |
-| ---- | ------ | -------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| 2020 | VLDB   | [Understanding the Effect of Data Center Resource Disaggregation on Production DBMSs](https://dl.acm.org/doi/10.14778/3397230.3397249) |      |
-| 2020 | CIDR   | [Rethinking Data Management Systems for Disaggregated Data Centers](https://www.cis.upenn.edu/~sga001/papers/ddc-cidr20.pdf)           |      |
-| 2021 | SIGMOD | [PolarDB Serverless: A Cloud Native Database for Disaggregate Data Centers](https://dl.acm.org/doi/10.1145/3448016.3457560)            |      |
-| 2021 | VLDB   | [TowardsCost-Effectiveand elasticCloudDatabaseDeploymentviaMemoryDisaggregation](http://www.vldb.org/pvldb/vol14/p1900-zhang.pdf)      |      |
-| 2022 | CIDR   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf) |      |
-| 2023 | ASPLOS | [Persistent Memory Disaggregation for Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3582016.3582055)               |      |
+| Year | Conf.  | Paper                                                                                                                                    | Code |
+| ---- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| 2020 | VLDB   | [Understanding the Effect of Data Center Resource Disaggregation on Production DBMSs](https://dl.acm.org/doi/10.14778/3397230.3397249)   |      |
+| 2020 | CIDR   | [Rethinking Data Management Systems for Disaggregated Data Centers](https://www.cis.upenn.edu/~sga001/papers/ddc-cidr20.pdf)             |      |
+| 2021 | SIGMOD | [PolarDB Serverless: A Cloud Native Database for Disaggregate Data Centers](https://dl.acm.org/doi/10.1145/3448016.3457560)              |      |
+| 2021 | VLDB   | [TowardsCost-Effective and Elastic Cloud Database Deployment via Memory Disaggregation](http://www.vldb.org/pvldb/vol14/p1900-zhang.pdf) |      |
+| 2022 | CIDR   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf)   |      |
+| 2023 | ASPLOS | [Persistent Memory Disaggregation for Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3582016.3582055)                 |      |
 
 ## Hardware
 | Year | Conf.  | Paper                                                                                                                                | Code                                   |
