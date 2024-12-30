@@ -113,7 +113,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | OSDI       | [Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory](https://www.usenix.org/conference/osdi24/presentation/zhang-ming)                            | [link](https://github.com/minghust/motor)     |
 | 2024 | ATC        | [Ethane: An Asymmetric File System for Disaggregated Persistent Memory](https://www.usenix.org/conference/atc24/presentation/cai)                                                    | [link](https://github.com/miaogecm/Ethane.git) |
 | 2024 | SOSP       | [Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores]()                                                                                              | [link](https://github.com/dmemsys/Aceso)       |
-| 2024 | SOSP       | [SWARM: Replicating Shared Disaggregated-Memory in No Time]()                                                                                                                        |                                                |
+| 2024 | SOSP       | [SWARM: Replicating Shared Disaggregated-Memory in No Time](https://arxiv.org/pdf/2409.16258)                                                                                                                        |              [link](https://github.com/LPD-EPFL/swarm-kv)                            |
 
 ## Databases
 | Year | Conf.  | Paper                                                                                                                                    | Code |
