@@ -68,6 +68,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | ATC     | [UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy](https://www.usenix.org/conference/atc24/presentation/zhong)              | [link](https://github.com/yijieZ/UniMem)           |
 | 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     
                                |
+| 2025 | ASPLOS | [CXLfork: Fast Remote Fork over CXL Fabrics](https://dl.acm.org/doi/10.1145/3676641.3715988) | | 
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
@@ -83,6 +84,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | ASPLOS  | [TrackFM: Far-out Compiler Support for a Far Memory World](https://dl.acm.org/doi/pdf/10.1145/3617232.3624856)                                                                     | [link](https://github.com/compiler-disagg/TrackFM) |
 | 2024 | OSDI    | [A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications](https://www.usenix.org/conference/osdi24/presentation/chen-lei)                            |            [link](https://github.com/wangchenxi7/Atlas)                                        |
 | 2024 | OSDI    | [DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency](https://www.usenix.org/conference/osdi24/presentation/ma-haoran) |          [link](https://github.com/uclasystem/DRust)                                          |
+| 2025 | EuroSys | [Adios to Busy-Waiting for Microsecond-scale Memory Disaggregation](https://doi.org/10.1145/3689031.3717475) | | 
 
 ## Data structures
 | Year | Conf.  | Paper                                                                                                                                                        | Code                                          |
@@ -93,7 +95,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | OSDI   | [SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory](https://www.usenix.org/conference/osdi23/presentation/luo)                          | [link](https://github.com/dmemsys/SMART)      |
 | 2023 | FAST   | [ROLEX: A Scalable RDMA-Oriented Learned Key-Value Store for Disaggregated Memory Systems](https://www.usenix.org/conference/fast23/presentation/li-pengfei) | [link](https://github.com/iotlpf/ROLEX)       |
 | 2024 | SOSP   | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                       | [link](https://github.com/dmemsys/CHIME)      |
-
+| 2025 | ASPLOS | [pulse: Accelerating Distributed Pointer-Traversals on Disaggregated Memory](https://doi.org/10.1145/3669940.3707253) | |
+| 2025 | EuroSys | [Deft: A Scalable Tree Index for Disaggregated Memory](https://doi.org/10.1145/3689031.3696062) | |
 
 ## Storage Systems
 | Year | Conf.      | Paper                                                                                                                                                                                | Code                                           |
@@ -139,6 +142,13 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2022 | ATC    | [Direct Access, High-Performance Memory Disaggregation with DirectCXL](https://www.usenix.org/conference/atc22/presentation/gouk)    |                                        |
 | 2022 | ASPLOS | [Clio: A Hardware-Software Co-Designed Disaggregated Memory System](https://dl.acm.org/doi/10.1145/3503222.3507762)                  | [link](https://github.com/WukLab/Clio) |
 | 2023 | ASPLOS | [Pond: CXL-Based Memory Pooling Systems for Cloud Platforms](https://dl.acm.org/doi/10.1145/3575693.3578835)                         | [link](https://github.com/vtess/Pond)  |
+| 2025 | ASPLOS | [Formalising CXL Cache Coherence](https://doi.org/10.1145/3676641.3715999) | |
+| 2025 | ASPLOS | [CtXnL: A Software-Hardware Co-Designed Solution for Efficient CXL-Based Transaction Processing](https://doi.org/10.1145/3676641.3716244) | |
+| 2025 | ASPLOS | [ByteFS: System Support for (CXL-based) Memory-Semantic Solid-State Drives](https://doi.org/10.1145/3669940.3707250) | |
+| 2025 | ASPLOS | [M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems](https://doi.org/10.1145/3676641.3711999) | |
+| 2025 | ASPLOS | [Systematic CXL Memory Characterization and Performance Analysis at Scale](https://doi.org/10.1145/3676641.3715987) | |
+| 2025 | ASPLOS | [PIM is All You Need: A CXL-Enabled GPU-Free System for LLM Inference](https://doi.org/10.1145/3676641.3716267) | |
+| 2025 | ASPLOS | [Toleo: Scaling Freshness to Tera-scale Memory Using CXL and PIM](https://simba.cs.stonybrook.edu/pdfs/p313-dong.pdf) | |
 
 
 ## Applications
