@@ -66,8 +66,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | OSDI    | [Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration](https://www.usenix.org/conference/osdi24/presentation/xiang)                                |                                                    |
 | 2024 | OSDI    | [Managing Memory Tiers with CXL in Virtualized Environments](https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong)                                   |                                                    |
 | 2024 | ATC     | [UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy](https://www.usenix.org/conference/atc24/presentation/zhong)              | [link](https://github.com/yijieZ/UniMem)           |
-| 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     
-                               |
+| 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     |
 | 2025 | ASPLOS | [CXLfork: Fast Remote Fork over CXL Fabrics](https://dl.acm.org/doi/10.1145/3676641.3715988) | | 
 
 ## Software/Language Runtime
