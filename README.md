@@ -68,6 +68,9 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | ATC     | [UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy](https://www.usenix.org/conference/atc24/presentation/zhong)              | [link](https://github.com/yijieZ/UniMem)           |
 | 2024 | ATC     | [FlexMem: Adaptive Page Profiling and Migration for Tiered Memory](https://www.usenix.org/conference/atc24/presentation/xu-dong)                                   |                     |
 | 2025 | ASPLOS | [CXLfork: Fast Remote Fork over CXL Fabrics](https://dl.acm.org/doi/10.1145/3676641.3715988) | | 
+| 2025 | OSDI | [FineMem: Breaking the Allocation Overhead vs. Memory Waste Dilemma in Fine-Grained Disaggregated Memory Management](https://www.usenix.org/conference/osdi25/presentation/wang-xiaoyang) | |
+| 2025 | OSDI | [Tiered Memory Management Beyond Hotness](https://www.usenix.org/conference/osdi25/presentation/liu) | |
+
 
 ## Software/Language Runtime
 | Year | Conf.   | Paper                                                                                                                                                                              | Code                                               |
@@ -96,6 +99,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | SOSP   | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                       | [link](https://github.com/dmemsys/CHIME)      |
 | 2025 | ASPLOS | [pulse: Accelerating Distributed Pointer-Traversals on Disaggregated Memory](https://doi.org/10.1145/3669940.3707253) | |
 | 2025 | EuroSys | [Deft: A Scalable Tree Index for Disaggregated Memory](https://doi.org/10.1145/3689031.3696062) | [link](https://github.com/thustorage/deft) |
+| 2025 | ATC | [Cuckoo for Clients: Disaggregated Cuckoo Hashing](https://www.usenix.org/conference/atc25/presentation/grant) | |
 
 ## Storage Systems
 | Year | Conf.      | Paper                                                                                                                                                                                | Code                                           |
@@ -116,6 +120,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2024 | ATC        | [Ethane: An Asymmetric File System for Disaggregated Persistent Memory](https://www.usenix.org/conference/atc24/presentation/cai)                                                    | [link](https://github.com/miaogecm/Ethane.git) |
 | 2024 | SOSP       | [Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores]()                                                                                              | [link](https://github.com/dmemsys/Aceso)       |
 | 2024 | SOSP       | [SWARM: Replicating Shared Disaggregated-Memory in No Time](https://arxiv.org/pdf/2409.16258)                                                                                                                        |              [link](https://github.com/LPD-EPFL/swarm-kv)                            |
+| 2025 | ATC | [Fast Distributed Transactions for RDMA-based Disaggregated Memory](https://www.usenix.org/conference/atc25/presentation/lu) | | 
 
 ## Databases
 | Year | Conf.  | Paper                                                                                                                                    | Code |
@@ -126,6 +131,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2021 | VLDB   | [TowardsCost-Effective and Elastic Cloud Database Deployment via Memory Disaggregation](http://www.vldb.org/pvldb/vol14/p1900-zhang.pdf) |      |
 | 2022 | CIDR   | [Farview: Disaggregated Memory with Operator Offloading for Database Engines](https://www.cidrdb.org/cidr2022/papers/p11-korolija.pdf)   |      |
 | 2023 | ASPLOS | [Persistent Memory Disaggregation for Cloud-Native Relational Databases](https://dl.acm.org/doi/10.1145/3582016.3582055)                 |      |
+| 2025 | OSDI | [Tigon: A Distributed Database for a CXL Pod](https://www.usenix.org/conference/osdi25/presentation/huang-yibo) | |
 
 ## Hardware
 | Year | Conf.  | Paper                                                                                                                                | Code                                   |
@@ -148,6 +154,8 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2025 | ASPLOS | [Systematic CXL Memory Characterization and Performance Analysis at Scale](https://doi.org/10.1145/3676641.3715987) | [link](https://github.com/MoatLab/Melody) |
 | 2025 | ASPLOS | [PIM is All You Need: A CXL-Enabled GPU-Free System for LLM Inference](https://doi.org/10.1145/3676641.3716267) | [link](https://github.com/Yufeng98/CENT/) |
 | 2025 | ASPLOS | [Toleo: Scaling Freshness to Tera-scale Memory Using CXL and PIM](https://dl.acm.org/doi/10.1145/3622781.3674180) | [link](https://github.com/joydddd/Toleo) |
+| 2025 | ATC | [DSA-2LM: A CPU-Free Tiered Memory Architecture with Intel DSA](https://www.usenix.org/conference/atc25/presentation/liu-ruili) | |
+| 2025 | ATC | [DRack: A CXL-Disaggregated Rack Architecture to Boost Inter-Rack Communication](https://www.usenix.org/conference/atc25/presentation/zhang-xu) | |
 
 
 ## Applications
