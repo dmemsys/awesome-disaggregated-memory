@@ -100,7 +100,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2023 | OSDI    | [SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory](https://www.usenix.org/conference/osdi23/presentation/luo)                          | [link](https://github.com/dmemsys/SMART)      |
 | 2023 | FAST    | [ROLEX: A Scalable RDMA-Oriented Learned Key-Value Store for Disaggregated Memory Systems](https://www.usenix.org/conference/fast23/presentation/li-pengfei) | [link](https://github.com/iotlpf/ROLEX)       |
 | 2024 | SOSP    | [CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory]()                                                                       | [link](https://github.com/dmemsys/CHIME)      |
-| 2025 | ASPLOS  | [pulse: Accelerating Distributed Pointer-Traversals on Disaggregated Memory](https://doi.org/10.1145/3669940.3707253)                                        |                                               |
+| 2025 | ASPLOS  | [pulse: Accelerating Distributed Pointer-Traversals on Disaggregated Memory](https://doi.org/10.1145/3669940.3707253)                                        |   [link](https://github.com/yale-nova/pulse)                                            |
 | 2025 | EuroSys | [Deft: A Scalable Tree Index for Disaggregated Memory](https://doi.org/10.1145/3689031.3696062)                                                              | [link](https://github.com/thustorage/deft)    |
 | 2025 | ATC     | [Cuckoo for Clients: Disaggregated Cuckoo Hashing](https://www.usenix.org/conference/atc25/presentation/grant)                                               |                                               |
 
