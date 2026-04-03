@@ -103,6 +103,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2025 | ASPLOS  | [pulse: Accelerating Distributed Pointer-Traversals on Disaggregated Memory](https://doi.org/10.1145/3669940.3707253)                                        |                                               |
 | 2025 | EuroSys | [Deft: A Scalable Tree Index for Disaggregated Memory](https://doi.org/10.1145/3689031.3696062)                                                              | [link](https://github.com/thustorage/deft)    |
 | 2025 | ATC     | [Cuckoo for Clients: Disaggregated Cuckoo Hashing](https://www.usenix.org/conference/atc25/presentation/grant)                                               |                                               |
+| 2026 | VLDB    | [CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization]()                                               | [link](https://github.com/dmemsys/CIDER)                                            |
 
 ## Storage Systems
 | Year | Conf.      | Paper                                                                                                                                                                                | Code                                           |
