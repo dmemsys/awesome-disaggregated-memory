@@ -1,5 +1,6 @@
 # Awesome Disaggregated Memory
 A list of awesome researchers and papers about disaggregated memory.
+
 ***Note: This repo is now automatically maitained by AI Agents and mannually checked by human. Feel free to generate a pull request if you find any mistakes!***
 
 - [Awesome Disaggregated Memory](#awesome-disaggregated-memory)
