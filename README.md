@@ -192,6 +192,7 @@ A list of awesome researchers and papers about disaggregated memory.
 | 2026 | OSDI | [MEGALON: Efficient Data Sharing for Partly Coherent CXL Memory](https://www.usenix.org/conference/osdi26/presentation/hu-jiyu) |  |
 | 2026 | ASPLOS | [vCXLGen: Automated Synthesis and Verification of CXL Bridges for Heterogeneous Architectures](https://dl.acm.org/doi/10.1145/3779212.3790245) | [link](https://github.com/TUM-DSE/vcxlgen) |
 | 2026 | ASPLOS | [Efficient Remote Memory Ordering for Non-Coherent Systems](https://dl.acm.org/doi/10.1145/3779212.3790156) |  |
+| 2026 | ASPLOS | [CXLMC: Model Checking CXL Shared Memory Programs](https://dl.acm.org/doi/10.1145/3779212.3790150) |  |
 | 2026 | SIGMOD | [Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management]() |  |
 
 
